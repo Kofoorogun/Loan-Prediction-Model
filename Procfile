@@ -1,1 +1,1 @@
-web: uvicorn score:app --host 0.0.0.0 --port $PORT
+web: uvicorn predictive_model_API:app --host 0.0.0.0 --port $PORT
