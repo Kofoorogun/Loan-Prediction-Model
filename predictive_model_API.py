@@ -26,7 +26,7 @@ with open("model.pkl", 'rb') as pkl:
 # Declaring our FastAPI instance
 app = FastAPI()
 
-@app.post('/request body')
+@app.post('/request_body')
 
 def predict(input_parameters : input_data):
     input_dict = input_parameters.dict()
